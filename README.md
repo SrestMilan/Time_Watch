@@ -1,3 +1,3 @@
 # Time_Watch
-shows current time
+shows current time<br>
 technology used are html,css and js
