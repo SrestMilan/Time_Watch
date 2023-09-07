@@ -4,7 +4,7 @@ let minute=document.getElementById("min");
 let second=document.getElementById("sec");
 
 // assigning regular function in time variable
-let time=function getTime(){
+let time=()=>{
     let currentTime=new Date();
     hour.innerHTML=(currentTime.getHours()<10?"0":"")+currentTime.getHours();
     minute.innerHTML=(currentTime.getMinutes()<10?"0":"")+currentTime.getMinutes();
